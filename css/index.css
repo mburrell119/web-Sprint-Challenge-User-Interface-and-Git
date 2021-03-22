@@ -132,15 +132,107 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+   width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 14px; 
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.top-container {
+    width: 800px;
+    margin: 0 auto;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    padding: 20px 2%;
+}
+.main-image {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    padding: 20px 2%;
+}
+* {
+    margin: 0px 20px;
+}
+.middle-content .boxes .box:last-child{
+    background: dodgerblue;
+}
+.middle-content .boxes .box:first-child{
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+    }
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.aboutareas {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.content1 {
+    width: 50%;
+}
+.content2 {
+    width: 50%;
+}
+.content3 {
+    width: 50%;
+}
+.content4 {
+    width: 50%;
+}
+
+
+.aboutline {
+border-bottom: 1px dashed black;
+}
+button {
+    width: 125px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    background-color: white;
+
+    
 }
