@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML uses meaningful tags that can be read and understood by someone else or a search engine.
+Semantic HTML uses meaningful tags that can be read and understood by someone else or a search engine..
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
